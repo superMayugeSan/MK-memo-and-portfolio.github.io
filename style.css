@@ -1,0 +1,191 @@
+/* ===========================
+   Base
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:
+        "Helvetica Neue",
+        "Yu Gothic",
+        sans-serif;
+
+    background: #f8f5e9;
+    color: #333;
+
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* ===========================
+   Layout
+=========================== */
+
+.container {
+    max-width: 760px;
+    margin: 60px auto;
+    padding: 0 24px;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header {
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.description {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5em;
+}
+
+/* ===========================
+   Section
+=========================== */
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+
+    border-bottom: 1px solid #cfc8b6;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul,
+ol {
+    margin: 1em 0 1em 2em;
+}
+
+li {
+    margin: 0.4em 0;
+}
+
+/* ===========================
+   Code
+=========================== */
+
+code {
+    font-family: Consolas, Monaco, monospace;
+    background: #eee8d8;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+pre {
+    background: #eee8d8;
+    padding: 1em;
+    overflow-x: auto;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+/* ===========================
+   Link
+=========================== */
+
+a {
+    color: #3b4c5c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Horizontal Rule
+=========================== */
+
+hr {
+    border: none;
+    border-top: 1px solid #cfc8b6;
+    margin: 2em 0;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer {
+    margin-top: 48px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* ===========================
+   Tables
+=========================== */
+
+table {
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #cfc8b6;
+    padding: 0.6em;
+    text-align: left;
+}
+
+th {
+    background: #f1ecdc;
+}
+
+/* ===========================
+   Images
+=========================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+}
+
+/* ===========================
+   Blockquote
+=========================== */
+
+blockquote {
+    border-left: 4px solid #cfc8b6;
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    color: #555;
+    background: #fbf9f1;
+}
