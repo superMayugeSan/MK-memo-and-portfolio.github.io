@@ -122,8 +122,6 @@ def make(mdfile):
 
 <main class="container">
 
-<h1>{title}</h1>
-
 <p class="description">
 {date} / {category}
 </p>
